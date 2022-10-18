@@ -1,9 +1,10 @@
 package util;
+import org.testng.annotations.Test;
 
 import java.util.Stack;
 
-
-public class StackTest{
+@Test
+public class StackTest {
 
     public static void main(String[] args) {
         Stack<Integer> label = new Stack<Integer>();
@@ -13,7 +14,13 @@ public class StackTest{
         label.push(3);
 
         System.out.println(label);
+        System.out.println("Stack size is " + label.size());
+        System.out.println(label.pop());
+        System.out.println(label.empty());
+
 
     }
+
+
 
 }
