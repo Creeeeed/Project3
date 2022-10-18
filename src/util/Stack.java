@@ -2,7 +2,7 @@ package util;
 //<Type> name can be anything
 import
 public class Stack <Type> {
-    private Type[ ] data;
+    private Type[] data;
 
     public void push(Type item){
 
@@ -21,3 +21,5 @@ public class Stack <Type> {
     }
 
 }
+
+
